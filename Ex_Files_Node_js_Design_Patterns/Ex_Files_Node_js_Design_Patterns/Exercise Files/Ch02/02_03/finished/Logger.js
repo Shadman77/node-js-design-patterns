@@ -16,4 +16,6 @@ class Logger {
 
 }
 
+// export an instance instead to the class, 
+// so the instance will be stored in the cache and everyone will get the same instance
 module.exports = new Logger();

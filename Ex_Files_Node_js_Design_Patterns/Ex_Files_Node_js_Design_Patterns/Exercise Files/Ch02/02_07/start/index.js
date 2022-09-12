@@ -1,6 +1,7 @@
 var Person = require('./Person')
 
 // Employees
+// difficulty in understanding the params, anti pattern "telescopic constructor"
 var sue = new Person('Sue', true, true, 60);
 var bill = new Person('Bill', true, false, 20);
 var phil = new Person('Phil', true, false);

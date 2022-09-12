@@ -1,5 +1,6 @@
 class Person {
 
+    // now all params to come through the builder
     constructor(builder) {
         this.name = builder.name
         this.isEmployee = builder.isEmployee;

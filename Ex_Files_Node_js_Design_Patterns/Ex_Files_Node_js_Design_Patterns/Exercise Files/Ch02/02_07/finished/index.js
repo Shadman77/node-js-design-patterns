@@ -6,6 +6,7 @@ var bill = new PersonBuilder('Bill').makeEmployee().makePartTime().build();
 var phil = new PersonBuilder('Phil').makeEmployee().build();
 
 // Shoppers
+// Far easier to understand the params for the construction, builder created in 8
 var charles = new PersonBuilder('Charles')
     .withMoney(500)
     .withList(['jeans', 'sunglasses'])

@@ -21,6 +21,7 @@ class Shopper {
         this._shoppingList.push(item);
     }
 
+    // Cloning the instance
     clone() {
         var proto = Object.getPrototypeOf(this);
         var cloned = Object.create(proto);

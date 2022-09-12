@@ -11,6 +11,7 @@ class InventoryItem {
 
 }
 
+// Acts as an decorator
 class GoldenInventoryItem {
 
     constructor(baseItem) {
@@ -20,6 +21,7 @@ class GoldenInventoryItem {
 
 }
 
+// Acts as an decorator
 class DiamondInventoryItem {
 
   constructor(baseItem) {

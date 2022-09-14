@@ -43,3 +43,23 @@ ch3->7,8
 
 Avoid coupling the sender of a request to its reciever by giving more than one object a change to handle the request. Chain the receiving objects and pass the request along the chain.
 ch4->1,2
+
+# Object Behavioral: Command
+
+Encapsulating a request as an object, thereby letting you parameterize with different requests, queue or log requests, and support undoable operations.
+ch4->3,4,5
+
+# Object Behavioral: Iterator
+
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+ch4->6,7
+
+# Object Behavioral: Observer
+
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+ch4->8,9
+
+# Object Behavioral: Strategy
+
+Define a family of algorithms, encapsulating each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+ch->10,11

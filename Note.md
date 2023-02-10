@@ -3,15 +3,21 @@
 Ensure a class only has one instance and provide a global point of access to it.
 ch2->1,2,3
 
+Basically the object is instantiated only once. A common example can be a database connector.
+
 # Object Creational: Prototype
 
 Specify the kind of objects to create using prototypical instance, and create new objects by copying this prototype.
 ch2->4,5
 
+Simply copying a object then setting some properties instead of having to instantiate is from scratch.
+
 # Class Creational: Factory Method
 
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Methods lets a class defer instantiation to subclasses.
 ch2->6
+
+A method which is used to create object of different classes based on the parameters passed to the method.
 
 # Object Creational: Builder
 
